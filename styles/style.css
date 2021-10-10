@@ -2,9 +2,19 @@
 
 
 body {
-  overflow: hidden;
   background-color: #09283b;
   font-family: "Century Gothic";
+  display: flex;
+}
+
+aside{
+  width:21%;
+  height: 100vh;
+  background-color: #333;
+  /* Esto lo mantendra en su sitio */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .margen-arriba {
@@ -42,7 +52,7 @@ a:hover{
 }
 
 .sombra:hover{
-  background: #e7e1bc;
+  background: #cef2fa;
   border-radius: 20px;
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
@@ -71,10 +81,10 @@ a:hover{
 
 .contenido{
   color: black;
-  padding-top: 20px;
-  padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: justify;
 }
 
@@ -85,9 +95,131 @@ a:hover{
   margin-left: 20px;
   margin-right: 20px;
   width: 1035px;
-  height: 150px;
+  height: 270px;
+}
+
+.encatab {
+  background-color: #86d0e0;
+}
+
+.tablaa {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.bloque3 {
+  background: #cef2fa;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 1035px;
+  height: 1100px;
+}
+
+.expe {
+  border-style: solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.expe2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.contenido3{
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.bloque4 {
+  background: #cef2fa;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 1035px;
+  height: 440px;
+}
+
+.margen {
+  border-style: double;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bloque5 {
+  background: #cef2fa;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 1035px;
+  height: 440px;
+}
+
+.ali5 {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contenedor{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.animado {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+@keyframes mover {
+  0%{
+    transform: translate(100%);
+  }
 }
 
 
+.bloque6 {
+  background: #cef2fa;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 1035px;
+  height: 300px;
+}
 
 
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3s; /* don't forget to set a duration! */
+}
+
+.tab {
+  background-color: #86d0e0;
+}

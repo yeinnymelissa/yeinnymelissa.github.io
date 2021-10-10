@@ -10,10 +10,29 @@
     <link rel="shortcut icon" href="img/curri.png">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
+    <style>
+      .inicio{
+        width: 0%;
+      }
+      .final1{
+        width: 100%;
+      }
+      .final2{
+        width: 60%;
+      }
+      .animacionBarra {
+        transition: all 2s ease .5s;
+      }
+    </style>
     <title>Curriculum Web</title>
   </head>
   <body>
+    <aside>
     <div class="d-flex">
       <div class="sidebar-container panellateral">
         <div class="margen-arriba" ALIGN="center">
@@ -31,44 +50,237 @@
             <a href="#educacion" class="d-block p-3 text-dark"><ion-icon name="school" class="mr-2"></ion-icon>    Educación</a>
           </div>
           <div class="sombra">
-            <a href="#" class="d-block p-3 text-dark"><ion-icon name="tablet-portrait" class="mr-2"></ion-icon>    Información de Contacto</a>
+            <a href="#experiencia" class="d-block p-3 text-dark"><ion-icon name="trending-up" class="mr-2"></ion-icon>    Experiencia</a>
           </div>
           <div class="sombra">
-            <a href="#" class="d-block p-3 text-dark"><ion-icon name="trending-up" class="mr-2"></ion-icon>    Experiencia</a>
+            <a href="#contacto" class="d-block p-3 text-dark"><ion-icon name="tablet-portrait" class="mr-2"></ion-icon>    Información de Contacto</a>
           </div>
           <div class="sombra"> 
-            <a href="#" class="d-block p-3 text-dark"><ion-icon name="stats" class="mr-2"></ion-icon>    Habilidades</a>
+            <a id="habi" href="#habilidades" class="d-block p-3 text-dark"><ion-icon name="stats" class="mr-2"></ion-icon>    Habilidades</a>
+          </div>
+          <div class="sombra"> 
+            <a href="#logros" class="d-block p-3 text-dark"><ion-icon name="trophy" class="mr-2"></ion-icon></ion-icon>    Logros</a>
           </div>
         </div>
       </div>
+    </div>
+  </aside>
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-9">
+      <div class="bloque1" id="perfil">
+        <h3 class="titulo"><b>P   E   R   F   I   L</b></h3>
+        <p class="contenido">Soy una persona proactiva, puntual, responsable, entusiasta, de buenas relaciones interpersonales, con interés en aprender cosas nuevas, que se adhiere a los objetivos, misión y visión de la empresa.</p>
+      </div>
 
-      <div >
-        <div class="bloque1" id="perfil">
-          <h3 class="titulo"><b>P   E   R   F   I   L</b></h3>
-          <p class="contenido">Soy una persona proactiva, puntual, responsable, entusiasta, de buenas relaciones interpersonales, con interés en aprender cosas nuevas, que se adhiere a los objetivos, misión y visión de la empresa.</p>
+      <div class="bloque2" id="educacion">
+        <h3 class="titulo"><b>E   D   U   C   A   C   I   Ó   N</b></h3>
+        <div class="tablaa">
+          <table class="table table-bordered table-hover">
+            <tr align="center" class="encatab">
+              <th>AÑO</th>
+              <th>CARRERA</th>
+              <th>INSTIRUCIÓN</th>
+            </tr>
+            <tr align="center">
+              <td>2018 – 2019</td>
+              <td>Bachillerato en Ciencias y Letras con orientación en Computación</td>
+              <td>Liceo Francés</td>
+            </tr>
+            <tr align="center">
+              <td>2020 – Actualidad</td>
+              <td>Ingeniería en Ciencias y Sistemas </td>
+              <td>Universidad de San Carlos de Guatemala</td>
+            </tr>
+          </table>
         </div>
-  
-        <div class="bloque2" id="educacion">
-          <h3 class="titulo"><b>E   D   U   C   A   C   I   Ó   N</b></h3>
+      </div>
 
+      <div class="bloque3" id="experiencia">
+        <h3 class="titulo"><b>E   X   P   E   R   I   E   N   C   I   A</b></h3>
+        <br>
+
+        <div>
+          <div class="expe">
+            <p><b>Periodo:</b> 2016 - 2017</p>
+            <p class=" "><b>Actividad:</b> Venta de Cupcakes</p>
+          </div>
+          <div class="expe2">
+            <p><b>Experiencia Adquirida:</b></p>
+            <ul>
+              <li>Atención al cliente</li>
+              <li>Principios de repostería</li>
+          </ul>
+          </div>
+        </div>
+
+        <div>
+          <div class="expe">
+            <p><b>Periodo:</b> 2017 - 2018</p>
+            <p class=" "><b>Actividad:</b> Maestra auxiliar Escuela Dominical </p>
+            <p class=" "><b>Lugar:</b> Iglesia Cristiana Visión de Fé </p>
+          </div>
+          <div class="expe2">
+            <p><b>Experiencia Adquirida:</b></p>
+            <ul>
+              <li>Manejo de grupos de niños</li>
+              <li>Cuidado y entretenimiento de niños</li>
+              <li>Capacidad de comunicarse de manera espontánea</li>
+          </ul>
+          </div>
+        </div>
+        
+        <div>
+          <div class="expe">
+            <p><b>Periodo:</b> 2019</p>
+            <p class=" "><b>Actividad:</b> Maestra de Escuela Dominical </p>
+            <p class=" "><b>Lugar:</b> Iglesia Cristiana Visión de Fé </p>
+          </div>
+          <div class="expe2">
+            <p><b>Experiencia Adquirida:</b></p>
+            <ul>
+              <li>Planificación de clases</li>
+              <li>Educación a los niños de una manera innovadora y creativa</li>
+          </ul>
+          </div>
+        </div>
+        
+        <div>
+          <div class="expe">
+            <p><b>Periodo:</b> 2019</p>
+            <p class=" "><b>Actividad:</b> Prácticas </p>
+            <p class=" "><b>Empresa:</b> TRECSA </p>
+          </div>
+          <div class="expe2">
+            <p><b>Experiencia Adquirida:</b></p>
+            <ul>
+              <li>Organización de documentos</li>
+              <li>Digitalización de datos y documentos</li>
+              <li>Archivo de documentos</li>
+          </ul>
+          </div>
         </div>
       </div>
       
+      <div class="bloque4" id="contacto">
+        <h3 class="titulo"><b>INFORMACIÓN DE CONTACTO</b></h3>
+        <br>
+        <div class="margen">
+          <p class="contenido3"><ion-icon name="mail"></ion-icon><b>   E-mail</b>
+            <br>
+          <a href="mailto:yeinny.melissa92@gmail.com">Presione aquí para ir al correo electrónico</a>  
+          </p>
+        </div>
+        <br>
+        <div class="margen">
+          <p class="contenido3"><ion-icon name="call"></ion-icon><b>   Teléfono</b>
+            <br>
+          <p class="contenido3"><b>Celular: </b>XXXX-XXXX</p>
+          <p class="contenido3"><b>Tel. Casa: </b>XXXX-XXXX</p>
+          </p>
+        </div>
+        <br>
+        <div class="margen">
+          <p class="contenido3"><ion-icon name="home"></ion-icon><b>   Dirección</b>
+            <br>
+          <p class="contenido3">Guatemala</p>
+          </p>
+        </div>
+      </div> 
+
+      <div class="bloque5" id="habilidades">
+        <h3 class="titulo"><b>H A B I L I D A D E S</b></h3>
+        <div class="ali5">
+          <h5><b>Idiomas</b></h5>
+          <br>
+          <h6>Español (Nativo)</h6>
+          <div>
+            <div class="progress">
+              <div id="barra1" class="progress-bar progress-bar-striped inicio animacionBarra" role="progressbar"></div>
+            </div>
+          </div>
+          <br>
+          <h6>Inglés (60%)</h6>
+          <div>
+            <div class="progress">
+              <div id="barra2" class="progress-bar progress-bar-striped inicio animacionBarra" role="progressbar"></div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="ali5">
+          <h5><b>Informática</b></h5>
+          <div id="animado">
+            <ul>
+              <li>Microsoft Windows</li>
+              <li>Protocolo TCP/ IP</li>
+              <li>Microsoft Excel</li>
+              <li>Microsoft Word</li>
+              <li>Microsoft PowerPoint</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="bloque6" id="logros">
+        <h3 class="titulo"><b>L O G R O S</b></h3>
+        <div class="tablaa">
+        <table class="table table-bordered table-hover table-striped tab">
+          <tr align="center">
+            <td>2016</td>
+            <td>Participación en Competencia de Matemáticas USAC</td>
+          </tr>
+          <tr align="center">
+            <td>2016 – 2017</td>
+            <td>Participación en Competencia de Matemáticas Burger King</td>
+          </tr>
+          <tr align="center">
+            <td>2017</td>
+            <td>Reconocimiento 2do. Lugar en Competencia de Matemáticas Centro de Estudios Winbridge</td>
+          </tr>
+          <tr align="center">
+            <td>2019</td>
+            <td>Participación en Competencia de Matemáticas USAC</td>
+          </tr>
+          <tr align="center">
+            <td>2019</td>
+            <td>Reconocimiento y medalla de la Riva</td>
+          </tr>
+        </table>
+      </div>
+      </div>
+      <br>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </div>
+      
     
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      function animar1(){
+        document.getElementById("barra1").classList.toggle("final1");
+      }
+      function animar2(){
+        document.getElementById("barra2").classList.toggle("final2");
+      }
+      document.getElementById("habi").onclick = function (){
+        animar1()
+        animar2()
+      }
+      </script>
+
+    <script src="js/main.js"></script>
+    <!--<script src="js/animando.js"></script>-->
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
