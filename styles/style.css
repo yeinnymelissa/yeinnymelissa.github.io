@@ -1,0 +1,93 @@
+*{margin: 20; padding: 0;}
+
+
+body {
+  overflow: hidden;
+  background-color: #09283b;
+  font-family: "Century Gothic";
+}
+
+.margen-arriba {
+  margin-top: 20px;
+  margin-left: 60px;
+  background-color: #09283b;
+  width: 150px;
+  height: 180px;
+  padding-top: 15px;
+}
+
+.pad {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.panellateral {
+  background-color: #16acce;
+  min-height: 100vh;
+  text-decoration: none;
+}
+
+.panellateral .menu{
+  text-decoration: none;
+  margin-top: 20px;
+  width: 18rem;
+  color: black;
+}
+
+.sombra:hover{
+  background: #e7e1bc;
+  border-radius: 20px;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.bloque1 {
+  background: #cef2fa;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 1035px;
+  height: 150px;
+}
+
+.titulo{
+  color: #09283b;
+  background: #16acce;
+  padding-left: 20px;
+  padding-top: 10px;
+  height: 50px;
+  text-align: center;
+
+}
+
+.contenido{
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.bloque2 {
+  background: #cef2fa;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 1035px;
+  height: 150px;
+}
+
+
+
+
