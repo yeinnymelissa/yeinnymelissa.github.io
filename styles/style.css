@@ -194,11 +194,6 @@ a:hover{
   transition: all 0.5s;
 }
 
-@keyframes mover {
-  0%{
-    transform: translate(100%);
-  }
-}
 
 
 .bloque6 {
@@ -211,14 +206,6 @@ a:hover{
   height: 300px;
 }
 
-
-.my-element {
-  display: inline-block;
-  margin: 0 0.5rem;
-
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 3s; /* don't forget to set a duration! */
-}
 
 .tab {
   background-color: #86d0e0;
